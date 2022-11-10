@@ -1,0 +1,50 @@
+body{background-color:white;
+  font-size:100%;
+  font-style: normal;}
+
+header {background-color:aqua;
+  background-size: cover;
+  border: 5px black solid;
+  text-align:center;
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 200px;
+  width:auto;
+  margin: 20px;}
+  .logo{width:10%; height:auto; margin:5px;}
+  .redes{width:30%;height:auto; display: flex;justify-content: flex-end;align-items: flex-end;}
+  .logotwitter{width: 60px;height:50px;margin: 5px;}
+  .logoyoutube{width: 50px;margin: 5px;}
+  .logofacebook{width: 50px;margin: 5px;}
+  .logoinstagram{width:50px;margin: 5px;}
+
+
+nav {background-color: violet;text-align:center;display:contents;}
+.enlaces{background-color:lightblue;display: flex;justify-content:space-around;align-items: center;}
+section{background-color:lightpink;font-style: normal;font-size:100%;display: flex;flex-flow: row wrap;justify-content: space-around;}
+aside{background-color: lightpink;
+  text-align: justify;
+  font-family:serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-around;
+  flex-flow:row-reverse wrap;
+}
+footer{
+  background-color: lightpink;
+  height: 600px;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around;
+
+}
+.iconowhsp{width: 50px;position: fixed;bottom: 10px;left: 15px;}
+.iconofcbk{width: 60px;position: fixed;bottom: 10px;right: 15px;}
+.mapa{height:60%; width:15%;margin-top: 80px}
+.datos{font-style: oblique;}
