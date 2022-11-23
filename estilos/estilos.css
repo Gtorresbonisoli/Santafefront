@@ -1,0 +1,80 @@
+body{
+  height: 100vh;
+  background-color: rgb(204, 213, 174);
+  font-family:'Noto Serif', serif;
+}
+  
+  header {background-color:rgb(250, 237, 205);
+    background-size: cover;
+    border: 2px black solid;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height:30vh;
+    width:auto;
+    margin: 20px;}
+
+    .logo{width:10%; height:auto; margin:5px;}
+    .redes{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;}
+    .logotwitter{width: 50px;height:40px;margin: 5px;}
+    .logoyoutube{width: 40px;margin: 5px;}
+    .logofacebook{width: 40px;margin: 5px;}
+    .logoinstagram{width:40px;margin: 5px;}
+  
+  
+  nav {
+    height: 20vh;
+     width: auto;
+   
+    }
+    a:hover{ color: red; font-style: oblique;}
+  .enlaces{
+    height:20vh;
+    width: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   }
+  section{
+    font-weight: bold;
+    font-size: medium;
+    text-align: justify;
+    height:30vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;}
+
+    section:hover{text-decoration:underline;}
+    
+  aside{
+    display: flex;
+    justify-content: space-around;
+    flex-flow:row-reverse wrap;
+  }
+
+  footer{
+    height: 30vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  
+  }
+  .iconowhsp{width: 50px;position: fixed;bottom: 10px;left: 15px;}
+  .iconofcbk{width: 60px;position: fixed;bottom: 10px;right: 15px;}
+  .mapa{
+   padding: 20px 20px}
+  
+  .datos{
+    padding: 20px 30px;
+    font-style: oblique;}
+ receta base relleno decoracion {
+  font-family:'Noto Serif', serif;
+  text-align:left;
+  }
