@@ -29,9 +29,8 @@ body{
   
   
   nav {
-    height: 20vh;
+    height: 30vh;
      width: auto;
-   
     }
     a:hover{ color: red; font-style: oblique;}
   .enlaces{
@@ -41,6 +40,14 @@ body{
     justify-content:space-around;
     align-items: center;
    }
+   .franciaflag{
+    width: 40px;
+    height: 40px;
+  }
+  .inglaterraflag{
+    width: 40px;
+    height: 40px;
+  }
   section{
     font-weight: bold;
     font-size: medium;
@@ -52,10 +59,10 @@ body{
 
     section:hover{text-decoration:underline;}
     
-  aside{
+  .parrafo{
     display: flex;
     justify-content: space-around;
-    flex-flow:row-reverse wrap;
+    flex-flow:row wrap;
   }
 
   footer{
@@ -78,3 +85,25 @@ body{
   font-family:'Noto Serif', serif;
   text-align:left;
   }
+  @media (max-width: 800px) {
+    .enlaces {flex-direction: column;
+    font-size: small;}
+  }
+ @media (max-width:800px){
+  .ingredientes .base .relleno .parrafo {flex-direction: column;
+    font-size: small;
+  }
+}
+@media(min-width:800px){.franciaflag{
+  display:none;
+}}
+
+
+
+
+
+
+
+
+
+
