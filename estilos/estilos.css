@@ -1,7 +1,11 @@
 body{
-  height: 100vh;
   background-color: rgb(204, 213, 174);
   font-family:'Noto Serif', serif;
+  font-size: 1.5 em;
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
 }
   
   header {background-color:rgb(250, 237, 205);
@@ -11,13 +15,13 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    height:30vh;
+    height:20vh;
     width:auto;
     margin: 20px;}
 
-    .logo{width:10%; height:auto; margin:5px;}
+    .logo{width:10%; height:auto; margin:0px;}
     .redes{
       display: flex;
       justify-content: flex-end;
@@ -29,7 +33,7 @@ body{
   
   
   nav {
-    height: 30vh;
+    height: 10vh;
      width: auto;
     }
     a:hover{ color: red; font-style: oblique;}
@@ -52,39 +56,69 @@ body{
     font-weight: bold;
     font-size: medium;
     text-align: justify;
-    height:30vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;}
-
-    section:hover{text-decoration:underline;}
-    
-  .parrafo{
-    display: flex;
-    justify-content: space-around;
-    flex-flow:row wrap;
-  }
-
-  footer{
-    height: 30vh;
-    width: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content:space-around;
-  
   }
+
+    section:hover{text-decoration:underline;}
+
+ .fotocentral{
+  float: left;
+  border:  solid rgb(250, 237, 205);
+  background-color: rgb(204,213,174);
+  width: 60%;
+ }
+
+    
+  main{
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+   }
   .iconowhsp{width: 50px;position: fixed;bottom: 10px;left: 15px;}
   .iconofcbk{width: 60px;position: fixed;bottom: 10px;right: 15px;}
   .mapa{
    padding: 20px 20px}
+
+   .parrafo{
+    font-size: 1.0em;
+    text-align: center;
+   }
+
+   .cardtext{
+    font-size: 1em;
+   }
   
   .datos{
     padding: 20px 30px;
     font-style: oblique;}
- receta base relleno decoracion {
-  font-family:'Noto Serif', serif;
-  text-align:left;
+
+  .row{
+  padding: 10px 8px;
+  border: 10px 8 px;
+  margin: 10px 8 px;
+  display: flex;
+  justify-content: space-around;
   }
+
+
+
+
+
   @media (max-width: 800px) {
     .enlaces {flex-direction: column;
     font-size: small;}
